@@ -11,6 +11,6 @@ Este projeto foi feito para desenvolver meus conhecimentos com IONIC 5
 - Typescript
 - Ionic/Angular
 
-Visualize o projeto:https://elias2031.github.io/Calabouco_do_android/
+Visualize o projeto: https://elias2031.github.io/GasolinaOuAlcool/
 
 <img src="img/apresentacao_git.png">
