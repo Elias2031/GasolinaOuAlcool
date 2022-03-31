@@ -1,0 +1,51 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="text-align: center;">
+      Gasolina Ou Alcool
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+        <ion-img src="assets/logo.png"></ion-img>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+        <h4>Saiba qual a melhor opção para abastecimento do seu carro</h4>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-item>
+          <ion-label position="floating">
+            Preço Alcool, ex: <label style="color: gray;">1,90</label>
+          </ion-label>
+          <ion-input type="number" [(ngModel)]="precoAlcool"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">
+            Preço Gasolina, ex: <label style="color: gray;">2,90</label>
+          </ion-label>
+          <ion-input type="number" [(ngModel)]="precoGasolina"></ion-input>
+        </ion-item>
+
+        <ion-button expand="full" (click)="calcular()">Calcular</ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+        <h5 class="ion-text-center">
+          {{ resultado }}
+        </h5>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
