@@ -10,7 +10,3 @@ Este projeto foi feito para desenvolver meus conhecimentos com IONIC 5
 - Javascript
 - Typescript
 - Ionic/Angular
-
-Visualize o projeto: https://elias2031.github.io/GasolinaOuAlcool/
-
-<img src="img/apresentacao_git.png">
