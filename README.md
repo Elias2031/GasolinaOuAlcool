@@ -1,6 +1,6 @@
 # GasolinaOuAlcool
 
-O principal objetivo deese projeto foi desenvolver a home do que seria um ecommerce da loja
+Saiba qual o combustivel com o melhor custo/beneficio!
 
 Este projeto foi feito para desenvolver meus conhecimentos com IONIC 5
 
